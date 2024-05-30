@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>Precios</title>
+</head>
+
+<body>
+    <!-- CELULAR-->
+    <div class="bg-white px-2">
+        <p class="md:text-xl lg:text-3xl text-primaryy font-semibold pb-6 pt-4 dark:text-white">
+            Nuestras habitaciones
+        </p>
+
+        <div class="flex flex-col items-center  bg-white">
+            <div class="flex flex-row justify-center gap-3 pt-2">
+                <p class="text-base ">Exterior</p>
+                <!--Botón-->
+                <label class="flex items-center cursor-pointer">
+                    <input type="checkbox" class="hidden toggle-checkbox">
+                    <div class="toggle-switch bg-gray-400 w-12 h-6 rounded-full relative transition duration-300">
+                        <div
+                            class="toggle-switch-handle bg-white w-4 h-4 rounded-full absolute top-1 left-1 flex justify-center items-center text-gray-400 font-bold">
+                            <!-- Contenido dentro del mango del interruptor -->
+                        </div>
+                    </div>
+                </label>
+
+                <!--Botón-->
+
+                <p class="text-base  font-bold">Interior</p>
+            </div>
+
+            <p class="text-sm pt-2 pb-2">Habitaciones interiores: sin vista a la calle</p>
+        </div>
+
+        <div class="flex flex-col lg:flex-row items-center justify-center lg:gap-14 gap-3 pb-6">
+            <!--Card1-->
+            <div class="w-52 h-56 rounded-xl flex flex-col items-center mt-5 border border-primaryy  bg-white">
+                <p class="pt-6 font-bold text-lg text-primaryy">Tarifa por noche</p>
+                <p class="text-3xl text-black mt-5 font-semibold">S/. 50</p>
+                <p class="text-sm mt-3 ">Pago completo por</p>
+                <p class="text-sm">adelantado</p>
+                <button type="button"
+                    class=" rounded-full shadow-lg bg-primaryy text-white  text-xs font-semibold h-8 w-20 mt-3 transition duration-300 transform hover:scale-105">+info</button>
+            </div>
+
+            <!--Card2-->
+            <div class="w-52 h-56 rounded-xl flex flex-col items-center mt-5 border border-primaryy  bg-white">
+                <p class="pt-6 font-bold text-lg text-primaryy">Tarifa semanal</p>
+                <p class="text-3xl text-black mt-5 font-semibold">S/. 50</p>
+                <p class="text-sm mt-3 ">Pago adelantado</p>
+                <p class="text-sm">de S/. 80</p>
+                <button type="button"
+                    class=" rounded-full shadow-lg bg-primaryy text-white text-xs font-semibold h-8 w-20 mt-3 transition duration-300 transform hover:scale-105">+info</button>
+            </div>
+
+            <!--Card3-->
+            <div class="w-52 h-56 rounded-xl flex flex-col items-center mt-5 border border-primaryy  bg-white">
+                <p class="pt-6 font-bold text-lg text-primaryy">Tarifa mensual</p>
+                <p class="text-3xl text-black mt-5 font-semibold">S/. 350</p>
+                <p class="text-sm mt-3 ">Pago mensual por</p>
+                <p class="text-sm">adelantado</p>
+                <button type="button"
+                    class=" rounded-full shadow-lg bg-primaryy text-white text-xs font-semibold h-8 w-20 mt-3 transition duration-300 transform hover:scale-105">+info</button>
+            </div>
+        </div>
+    </div>
+    <!-- DESKTOP-->
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+</body>
+
+</html>
